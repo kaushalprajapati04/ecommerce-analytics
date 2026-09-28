@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <defs>
+    <linearGradient id="ecGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#1D4ED8" />
+    </linearGradient>
+    <linearGradient id="ecInnerGlow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Blue Rounded Square Background with Modern Gradient -->
+  <rect width="100" height="100" rx="22" fill="url(#ecGrad)" />
+  
+  <!-- Subtle Inner Top Highlight -->
+  <rect x="1" y="1" width="98" height="98" rx="21" fill="none" stroke="url(#ecInnerGlow)" stroke-width="1.5" />
+
+  <!-- Monogram "EC" Group -->
+  <g fill="#FFFFFF">
+    <!-- Letter E -->
+    <path d="M 21 27 H 47.5 V 36.5 H 30.5 V 45.25 H 44 V 54.75 H 30.5 V 63.5 H 47.5 V 73 H 21 Z" />
+    
+    <!-- Letter C -->
+    <path d="M 79 27 H 66 C 56.5 27 52.5 34.5 52.5 50 C 52.5 65.5 56.5 73 66 73 H 79 V 63.5 H 66 C 62 63.5 62 58 62 50 C 62 42 62 36.5 66 36.5 H 79 Z" />
+  </g>
+</svg>
